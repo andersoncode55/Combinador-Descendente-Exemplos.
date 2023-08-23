@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+/* 1. Combinador Espaço */
+/* neste exemplo, o estilo será aplicado apenas ao elemento '<h2>' que está dentro da '<div>' com a classe "container". */
+.container h2 {
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+/* 2. Combinador Espaço com Elemento Universal */
+/* Neste exemplo, o estilo será aplicado a todos os elementos filhos (diretos e descendentes) da '<div>' com a classe "container", alterandoo tamanho da fonte. */
+.container * {
+    font-size: 18px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 3. Combinador Espaço com Classe Específica*/
+/* Aqui, o estilo será aplicado apenas ao paragráfo com a classe "destaque" que está dentro da '<div>' com a classe "container". */
+.container .destaque {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+/* 4. Neste exemplo, o estilo será aplicado apenas ao elemento '<h2>' que está dentro do elemento com ID "container" */
+#container h2 {
+    color: blue;
+}
+
+
+
+
+/* 5 Combinador Espaço com ID e Classe */
+#container-2 .destaque{
+   
+    background-color: brown;
+   
+}
+
+
+
+
+
+
+/* Neste exemplo, o estilo será aplicado ao parágrafo dentro do elemento com ID "container" e á tag '<h2>' dentro do elemento com o ID "outro-container". */
+#container p{
+    font-style: italic;
+
+}
+
+#outro-container h2{
+    color: green;
+}
