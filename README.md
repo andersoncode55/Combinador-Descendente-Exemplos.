@@ -107,7 +107,7 @@ Neste exemplo, o estilo será aplicado ao pagráfo dentro do elemento com ID "co
 
 
 ## 📍 Contribuições
-Contribuições são bem-vindas! Caso você tenha sugestões para adicionar mais exemplos oou expandir as explicações, sinta-se á vontade para abrir uma issue ou enviar um pull request.
+Contribuições são bem-vindas! Caso você tenha sugestões para adicionar mais exemplos ou expandir as explicações, sinta-se á vontade para abrir uma issue ou enviar um pull request.
 
 
 
